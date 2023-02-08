@@ -47,4 +47,5 @@
   </tbody>
 </table>
 
-  <a href="<?php echo url_for('job/new') ?>">New</a>
+  <a href="<?php echo url_for('job/show?id='.$job->getId().'&company='.$job->getCompany().
+  '&location='.$job->getLocation().'&position='.$job->getPosition()) ?>">New</a>
