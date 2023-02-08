@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=172.18.0.2;port=3306;dbname=jobeet'
+      username: jobeet
+      password: jobeet 
